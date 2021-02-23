@@ -19,6 +19,7 @@
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
     <link rel="stylesheet" href="style_gallery.css">
     <style>
         html {
@@ -207,7 +208,7 @@
             width: 90%;
             max-width: 500px;
             padding: 2em;
-            margin: 1.5em auto;
+            margin: 50px auto;
             border: 3px solid rgba(0, 0, 0, 0.08);
             text-align: center;
         }
@@ -228,12 +229,12 @@
         @import url('https://fonts.googleapis.com/css?family=Barlow');
 
         #Team_HEAD {
-            background: #310404 url(imgs/Team/sedsteam.jpg) no-repeat center center fixed;
+            background: #310404 url(imgs/Team/vivek-doshi-epjI4iHpXqU-unsplash.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            font-family: 'Barlow', sans-serif;
+            font-family: 'Orbitron', sans-serif;
         }
 
         .container {
@@ -282,7 +283,7 @@
             line-height: 100px;
             height: 90px;
             margin-top: -50px;
-            font-size: 90px;
+            font-size: 80px;
             width: 100%;
             text-align: center;
             color: transparent;
@@ -354,59 +355,9 @@
             animation-delay: 14s;
         }
 
-        .sp-globe {
-            position: absolute;
-            width: 282px;
-            height: 273px;
-            left: 50%;
-            top: 50%;
-            margin: -137px 0 0 -141px;
-            /* background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left; */
-            -webkit-animation: fadeInBack 3.6s linear 14s backwards;
-            -moz-animation: fadeInBack 3.6s linear 14s backwards;
-            -ms-animation: fadeInBack 3.6s linear 14s backwards;
-            animation: fadeInBack 3.6s linear 14s backwards;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-            filter: alpha(opacity=30);
-            opacity: 0.3;
-            -webkit-transform: scale(5);
-            -moz-transform: scale(5);
-            -o-transform: scale(5);
-            -ms-transform: scale(5);
-            transform: scale(5);
-        }
+       
 
-        .sp-circle-link {
-            position: absolute;
-            left: 50%;
-            bottom: 100px;
-            margin-left: -50px;
-            text-align: center;
-            line-height: 100px;
-            width: 100px;
-            height: 100px;
-            background: #fff;
-            color: #3f1616;
-            font-size: 25px;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            border-radius: 50%;
-            -webkit-animation: fadeInRotate 1s linear 16s backwards;
-            -moz-animation: fadeInRotate 1s linear 16s backwards;
-            -ms-animation: fadeInRotate 1s linear 16s backwards;
-            animation: fadeInRotate 1s linear 16s backwards;
-            -webkit-transform: scale(1) rotate(0deg);
-            -moz-transform: scale(1) rotate(0deg);
-            -o-transform: scale(1) rotate(0deg);
-            -ms-transform: scale(1) rotate(0deg);
-            transform: scale(1) rotate(0deg);
-        }
-
-        .sp-circle-link:hover {
-            background: #85373b;
-            color: #fff;
-        }
-
+       
         /**/
 
         @-webkit-keyframes blurFadeInOut {
@@ -616,7 +567,7 @@
                 transform: scale(1) rotate(0deg);
             }
         }
-
+        
         @media (max-width:992px) {
             #Team_HEAD {
                 height: 30vh;
@@ -628,7 +579,26 @@
             }
 
             .sp-container h2.frame-1 {
-                font-size: 12.5px;
+                font-size: 15px;
+            }
+
+            .sp-container h2.frame-4 {
+                font-size: 50px;
+            }
+
+        }
+        @media (max-width:500px) {
+            #Team_HEAD {
+                height: 30vh;
+
+            }
+
+            .sp-container h2 {
+                font-size: 22.5px;
+            }
+
+            .sp-container h2.frame-1 {
+                font-size: 11px;
             }
 
             .sp-container h2.frame-4 {
